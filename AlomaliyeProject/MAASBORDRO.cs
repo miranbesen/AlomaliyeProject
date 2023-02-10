@@ -243,13 +243,3 @@ namespace AlomaliyeProject
         }
     }
 }
-
-//SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM Firma", con);
-//con.Open();
-//SqlDataReader rowCountReader = cmd.ExecuteReader();
-//string strRowCountReader = "";
-//if (rowCountReader.Read())
-//{
-//    strRowCountReader = rowCountReader.GetValue(0).ToString();
-//}
-//con.Close();

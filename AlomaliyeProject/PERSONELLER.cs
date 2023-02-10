@@ -111,7 +111,7 @@ namespace AlomaliyeProject
 
         private bool IsValid()
         {
-            if (txtPerAd.Text == string.Empty || txtMaas.Text == string.Empty || mtbYil.Text==string.Empty)
+            if (txtPerAd.Text == string.Empty || txtMaas.Text == string.Empty || mtbYil.Text == string.Empty)
             {
                 MessageBox.Show("Personel Ad, Maas and Yil Area is required!!!");
                 return false;
@@ -255,27 +255,6 @@ namespace AlomaliyeProject
         {
             ResetFormControls();
         }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtMaas_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void mtbYil_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
 
     }
 }

@@ -292,7 +292,6 @@
             this.mtbYil.Size = new System.Drawing.Size(58, 22);
             this.mtbYil.TabIndex = 42;
             this.mtbYil.ValidatingType = typeof(int);
-            this.mtbYil.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtbYil_MaskInputRejected);
             // 
             // label11
             // 
@@ -303,7 +302,6 @@
             this.label11.Size = new System.Drawing.Size(35, 22);
             this.label11.TabIndex = 43;
             this.label11.Text = "Yıl:";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // txtMaas
             // 
@@ -312,7 +310,6 @@
             this.txtMaas.Name = "txtMaas";
             this.txtMaas.Size = new System.Drawing.Size(118, 22);
             this.txtMaas.TabIndex = 44;
-            this.txtMaas.TextChanged += new System.EventHandler(this.txtMaas_TextChanged);
             // 
             // label12
             // 
@@ -323,7 +320,6 @@
             this.label12.Size = new System.Drawing.Size(58, 22);
             this.label12.TabIndex = 45;
             this.label12.Text = "Maaş:";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // dtpİseBaslangicTarih
             // 
